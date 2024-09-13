@@ -1,0 +1,38 @@
+header{
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+#menu-icon{
+    display: block;
+    cursor: pointer;
+    color:white;
+    position: absolute;
+    top:1.rem ;
+    right:1rem;
+}
+.hidden{
+    display: none;
+}
+nav li{
+    display: block;
+    margin-right: 0;
+    margin: 0.9rem 0;
+}
+.nav-link{
+    font-size: 0.9rem;
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    gap: 60px;
+}
+.home-content{
+    order: 1;
+}
+
+.hom-img{
+    order: 0;
+}
