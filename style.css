@@ -34,7 +34,7 @@
     width: 100%;
     z-index: 10;
     padding: 1rem ;
-    min-height: 5vh;
+    min-height: 10vh;
   }
   #menu-icon{
     display: none;
@@ -85,7 +85,8 @@
   background: linear-gradient(to left, #a4fe7b, #ff5fa2);
   border-radius: 100%;
   backdrop-filter: blur(10px);
-  padding: 40px;
+  padding: 25px;
+  box-shadow: 5px 3px 30px ,-5px -3px 30px;
 }
   
   .home-content h3{

@@ -2,15 +2,27 @@ header{
     flex-direction: column;
     text-align: center;
     position: relative;
+    
+}
+.logo img{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
 }
 #menu-icon{
     display: block;
     cursor: pointer;
     color:white;
     position: absolute;
-    top:1.rem ;
+    top:1rem;
     right:1rem;
 }
+nav{
+  
+    margin-top: 3rem;
+  
+}
+
 .hidden{
     display: none;
 }
