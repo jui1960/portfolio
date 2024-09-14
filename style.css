@@ -22,6 +22,7 @@
     --background-color1:#686767;
     --background-color2:#0f1531;
     --color:#fafafa;
+    --main-color:#754ef9;
 
   }
   header{
@@ -109,6 +110,45 @@
     width: 310px;
     border-radius: 100%;
   }
+
+
+
+  /* about section start */
+  span{
+    color: var(--main-color);
+  }
+  #About-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:4rem ;
+    background-color: rgb(197, 197, 197);
+  }
+  .about-img{
+    margin: 5rem;
+  }
+  .about-img img{
+    max-width: 40vw;
+    max-height: 40vh;  
+  }
+  .about-content h1{
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  .about-content p{
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem;
+    padding: 10px;
+  }
+  button{
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+
+
+  /* about section End */
+
 /* main section end */
 
 

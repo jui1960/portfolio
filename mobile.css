@@ -44,7 +44,22 @@ nav li{
 .home-content{
     order: 1;
 }
-
 .hom-img{
     order: 0;
 }
+#About-me{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+}
+.about-img{
+    order: 0;
+    margin: 1rem;
+    
+}
+.about-content{
+    order: 1;
+}
+
+
