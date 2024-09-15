@@ -61,5 +61,8 @@ nav li{
 .about-content{
     order: 1;
 }
+.about-content p{
+    text-align: center;
+  }
 
 

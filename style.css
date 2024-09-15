@@ -123,6 +123,7 @@
     align-items: center;
     gap:4rem ;
     background-color: rgb(197, 197, 197);
+    text-align: center;
   }
   .about-img{
     margin: 5rem;
@@ -139,11 +140,13 @@
     font-size: 1.2rem;
     margin: 1rem 0 2rem;
     padding: 10px;
+    text-align: left;
   }
   button{
     padding: 0.5rem;
     font-size: 1rem;
   }
+
 
 
 
