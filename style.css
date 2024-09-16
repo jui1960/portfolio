@@ -23,6 +23,8 @@
     --background-color2:#0f1531;
     --color:#fafafa;
     --main-color:#754ef9;
+    --shadow-color:rgba(0, 0, 0, .2);
+    --bg-color:#fdfdfd;
 
   }
   header{
@@ -124,6 +126,8 @@
     gap:4rem ;
     background-color: rgb(197, 197, 197);
     text-align: center;
+    background-color: #212747;
+    color: var(--color);
   }
   .about-img{
     margin: 5rem;
@@ -143,17 +147,70 @@
     text-align: left;
   }
   button{
-    padding: 0.5rem;
-    font-size: 1rem;
+    padding: 0.7rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
   }
-
-
-
-
   /* about section End */
+
+  
+/* services section start */
+.Services .heading{
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.Services .services-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem ;
+}
+.services-container .services-box{
+  flex:1 1 30rem ;
+  background-color: var(--bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  box-shadow: 0 .1rem .5rem var(--shadow-color);
+  text-align: center;
+  border-top: .6rem solid var(--main-color);
+  border-bottom: .6rem solid var(--main-color);
+}
+.services-box i{
+  font-size: 5rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+.services-box h3{
+  font-size: 2rem;
+  margin: .8rem;
+}
+
+
+/* services section end */
 
 /* main section end */
 
 
+@media screen and (max-width: 1200px) {
+  .services-box h3 {
+    color: red;
+  }
+  .Services .services-container{
+    margin: 5rem;
+  }
+}
 
+@media screen and (max-width: 1000px) {
+  .services-box h3 {
+    color: blue;
+  }
+  .Services .services-container{
+    margin: 1rem;
+  }
+}
 

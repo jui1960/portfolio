@@ -1,68 +1,71 @@
-header{
-    flex-direction: column;
-    text-align: center;
-    position: relative;
+@media screen and (max-width: 680px) {
+    header{
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        
+    }
+    .logo img{
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+    #menu-icon{
+        display: block;
+        cursor: pointer;
+        color:white;
+        position: absolute;
+        top:1rem;
+        right:1rem;
+    }
+    nav{
+      
+        margin-top: 3rem;
+      
+    }
+    
+    .hidden{
+        display: none;
+    }
+    nav li{
+        display: block;
+        margin-right: 0;
+        margin: 0.9rem 0;
+    }
+    .nav-link{
+        font-size: 0.9rem;
+    }
+    #Home{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+        gap: 60px;
+    }
+    .home-content{
+        order: 1;
+    }
+    .hom-img{
+        order: 0;
+    }
+    #About-me{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+    .about-img{
+        order: 0;
+        margin: 1rem;
+        
+    }
+    .about-content{
+        order: 1;
+    }
+    .about-content p{
+        text-align: center;
+      }
+    
+    
     
 }
-.logo img{
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
-}
-#menu-icon{
-    display: block;
-    cursor: pointer;
-    color:white;
-    position: absolute;
-    top:1rem;
-    right:1rem;
-}
-nav{
-  
-    margin-top: 3rem;
-  
-}
-
-.hidden{
-    display: none;
-}
-nav li{
-    display: block;
-    margin-right: 0;
-    margin: 0.9rem 0;
-}
-.nav-link{
-    font-size: 0.9rem;
-}
-#Home{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 50px;
-    gap: 60px;
-}
-.home-content{
-    order: 1;
-}
-.hom-img{
-    order: 0;
-}
-#About-me{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 0;
-}
-.about-img{
-    order: 0;
-    margin: 1rem;
-    
-}
-.about-content{
-    order: 1;
-}
-.about-content p{
-    text-align: center;
-  }
-
-
