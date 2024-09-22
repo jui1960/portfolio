@@ -1,0 +1,26 @@
+@media screen and (max-width: 1100px) {
+    .services-box h3 {
+      color: red;
+    }
+    .Services .services-container{
+      margin: 5rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .services-box h3 {
+      color: blue;
+    }
+    .Services .services-container{
+      margin: 3rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+      .services-box h3 {
+        color: yellow;
+      }
+      .Services .services-container{
+        margin: 2rem;
+      }
+  }

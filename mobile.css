@@ -64,8 +64,9 @@
     }
     .about-content p{
         text-align: center;
-      }
-    
-    
-    
+    }
+    .services-container .services-box{
+        margin: 0;
+    }
+ 
 }

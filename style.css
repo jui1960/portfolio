@@ -179,6 +179,7 @@
   text-align: center;
   border-top: .6rem solid var(--main-color);
   border-bottom: .6rem solid var(--main-color);
+ 
 }
 .services-box i{
   font-size: 5rem;
@@ -187,30 +188,21 @@
 }
 .services-box h3{
   font-size: 2rem;
-  margin: .8rem;
+  margin: .9rem;
 }
-
-
+.services-box p{
+  margin: 3rem;
+}
+.services-box .btn{
+  background-color: var(--main-color);
+  padding: 1rem;
+}
 /* services section end */
+
 
 /* main section end */
 
 
-@media screen and (max-width: 1200px) {
-  .services-box h3 {
-    color: red;
-  }
-  .Services .services-container{
-    margin: 5rem;
-  }
-}
 
-@media screen and (max-width: 1000px) {
-  .services-box h3 {
-    color: blue;
-  }
-  .Services .services-container{
-    margin: 1rem;
-  }
-}
+
 
