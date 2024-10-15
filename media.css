@@ -1,26 +1,27 @@
 @media screen and (max-width: 1100px) {
-    .services-box h3 {
+  /* .services-box h3 {
+    color: yellow;
+  } */
+    /* .services-box h3 {
       color: red;
-    }
-    .Services .services-container{
+    } */
+    /* .Services .services-container{
       margin: 5rem;
-    }
+    } */
   }
   
   @media screen and (max-width: 992px) {
-    .services-box h3 {
+    /* .services-box h3 {
       color: blue;
-    }
-    .Services .services-container{
-      margin: 3rem;
-    }
+    } */
+    /* .Services .services-container{
+      margin: 4rem;
+    } */
   }
   
   @media screen and (max-width: 768px) {
-      .services-box h3 {
-        color: yellow;
-      }
-      .Services .services-container{
-        margin: 2rem;
-      }
+      
+      /* .Services .services-container{
+        margin: 2.5rem;
+      } */
   }
