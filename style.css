@@ -167,6 +167,7 @@
   padding-top: 2rem;
   text-align: center;
   font-size: 3rem;
+  color: white;
 }
 
 .Services .services-container{
@@ -224,20 +225,59 @@
 }
 /* services section end */
 
-
+/* skill section Start */
 .skill{
-  text-align: center;
   background-color: var(--bg-about-color);
   color: white;
 }
-.skill-container li a{
-  color: white;
-  
-  
-  
+.headingg{
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.skill-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-container{
+  display: flex;
+  justify-content: space-between;
+}
+.technical-skill{
+  width: 550px;
+  height: 500px;
+  padding: 40px 90px;
+  margin-left: 120px;
+}
+.skillhead{
+  text-align: center;
+  font-size: 2.1rem;
+  text-decoration: underline;
+  text-underline-offset: 11px;
+  margin-bottom: 50px;
+}
+.bar{
+  font-size: 1.6rem;
+}
+.bar .icon{
+  margin: 40px 0;
+}
+.bar .icon:first-child{
+  margin-bottom: 0;
+}
+.bar .icon:last-child{
+  margin-bottom: 0;
+}
+.bar .icon .indfo{
+  margin-bottom: 6px;
 }
 
 
+
+
+
+/* skill section end */
 
 /* main section end */
 
